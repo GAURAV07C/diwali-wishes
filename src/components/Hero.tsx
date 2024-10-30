@@ -1,10 +1,24 @@
-// import Image from "next/image";
+"use client";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import { Button } from "./ui/button";
 import Link from "next/link";
 
 const Hero = () => {
+  const [crackerVisible, setCrackerVisible] = useState<number | null>(null);
+  const [isButtonClicked, setIsButtonClicked] = useState(false);
+  const burstCracker = () => {
+    const crackerIds = [1, 2, 3, 4]; // Array of cracker IDs
+    const randomCracker =
+      crackerIds[Math.floor(Math.random() * crackerIds.length)];
+    setCrackerVisible(randomCracker);
+    setIsButtonClicked(true);
+
+    setTimeout(() => {
+      setIsButtonClicked(false);
+      setCrackerVisible(null);
+    }, 4000);
+  };
   return (
     <div className="relative h-[820px] overflow-hidden">
       {/* First gradient layer (left to right) */}
@@ -66,8 +80,9 @@ const Hero = () => {
                 alt="deepak gif"
                 width={1800}
                 height={1800}
-                className=" absolute -mt-[300px] -ml-[20px] hidden"
-                id="1"
+                className={` absolute -mt-[300px] -ml-[20px] ${
+                  crackerVisible == 2 ? "" : "hidden"
+                } `}
               />
 
               <Image
@@ -75,23 +90,29 @@ const Hero = () => {
                 alt="deepak gif"
                 width={1000}
                 height={1800}
-                className=" absolute -mt-[85px] -ml-[14px] hidden"
+                className={`absolute -mt-[85px] -ml-[14px] ${
+                  crackerVisible == 3 ? "" : "hidden"
+                } `}
               />
 
-<Image
+              <Image
                 src="/Cracker 1.gif"
                 alt="deepak gif"
                 width={1800}
                 height={1800}
-                className=" absolute -mt-[300px] -ml-[20px] hidden"
+                className={` absolute -mt-[300px] -ml-[20px] ${
+                  crackerVisible == 1 ? "" : "hidden"
+                } `}
               />
 
-<Image
+              <Image
                 src="/Cracker 4.gif"
                 alt="deepak gif"
                 width={1800}
                 height={1800}
-                className=" absolute -mt-[300px] -ml-[20px] hidden"
+                className={` absolute -mt-[300px] -ml-[20px] ${
+                  crackerVisible == 4 ? "" : "hidden"
+                } `}
               />
 
               {/* button */}
@@ -101,8 +122,9 @@ const Hero = () => {
 
                 <div className="ml-[15px] md:w-[331px] h-[64px]">
                   <Button
+                    onClick={burstCracker}
                     variant="outline"
-                    className="bg-white  w-[227px] h-[43.97px]  rounded-full"
+                    className={`bg-white  w-[227px] h-[43.97px]  rounded-full`}
                   >
                     <p className="text-black font-medium font-poppins text-[21.95px] leading-[32.92px] ">
                       Burst a Cracker!
@@ -119,7 +141,9 @@ const Hero = () => {
                           "0.65px 3.26px 9.14px 0px rgba(0, 0, 0, 0.25)",
                       }}
                       variant="outline"
-                      className="bg-transparent  w-[188px] h-[41.44px]  rounded-full border-2 border-white "
+                      className={`bg-transparent  w-[188px] h-[41.44px]  rounded-full border-2 border-white ${
+                      isButtonClicked ? "bg-yellow-500 text-black" : "bg-white"
+                    }`}
                     >
                       <p className="text-white font-medium font-poppins text-[20.89px] leading-[31.33px] ">
                         Get Blessings
