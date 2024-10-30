@@ -103,7 +103,7 @@ const Gift = () => {
           </div>
         </div>
 
-        <div className="w-6/12 px-2 py-4 mx-auto mt-10 mb-5">
+        <div className="w-10/12 text-center  mx-auto mt-10 mb-10">
           <p className="font-[Merge One] font-medium text-xl leading-[41px]">Made with ❤️ by Gaurav</p>
         </div>
        
