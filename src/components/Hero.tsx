@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -41,16 +42,57 @@ const Hero = () => {
                     width={79.25}
                     height={54.55}
                     loading="lazy"
-                    className=" mb-6 "
+                    className=" mb-6 relative"
+                  />
+
+                  <Image
+                    src="/Deepak.gif"
+                    alt="deepak gif"
+                    width={30}
+                    height={30}
+                    className=" absolute -mt-[88.5px] ml-[22px]"
                   />
                 </div>
               </div>
               {/* wishes */}
-              <div className="h-[191px]  mt-2 font-merriweather font-semibold text-[20px] leading-[32px] text-white">
+              <div className="h-[191px]  mt-2 font-merriweather font-semibold text-[20px] leading-[32px] text-white relative">
                 Let’s dive into the sweets, light up the crackers, share the
                 laughs and build memories that light up your hearts as much as
                 the night sky. Let’s celebrate!
               </div>
+
+              <Image
+                src="/Cracker 2.gif"
+                alt="deepak gif"
+                width={1800}
+                height={1800}
+                className=" absolute -mt-[300px] -ml-[20px] hidden"
+                id="1"
+              />
+
+              <Image
+                src="/Cracker 3.gif"
+                alt="deepak gif"
+                width={1000}
+                height={1800}
+                className=" absolute -mt-[85px] -ml-[14px] hidden"
+              />
+
+<Image
+                src="/Cracker 1.gif"
+                alt="deepak gif"
+                width={1800}
+                height={1800}
+                className=" absolute -mt-[300px] -ml-[20px] hidden"
+              />
+
+<Image
+                src="/Cracker 4.gif"
+                alt="deepak gif"
+                width={1800}
+                height={1800}
+                className=" absolute -mt-[300px] -ml-[20px] hidden"
+              />
 
               {/* button */}
 
@@ -68,26 +110,29 @@ const Hero = () => {
                   </Button>
                 </div>
                 {/* get blessing */}
-                <div className="mt-[25px] md:mt-0 ml-[15px] z-30 relative ">
-                  <Button
-                    style={{
-                      backgroundColor: "rgba(255, 255, 255, 0.05)",
-                      boxShadow: "0.65px 3.26px 9.14px 0px rgba(0, 0, 0, 0.25)",
-                    }}
-                    variant="outline"
-                    className="bg-transparent  w-[188px] h-[41.44px]  rounded-full border-2 border-white "
-                  >
-                    <p className="text-white font-medium font-poppins text-[20.89px] leading-[31.33px] ">
-                      Get Blessings
-                    </p>
-                  </Button>
-                </div>
+                <Link href="#blessing">
+                  <div className=" md:mt-0 ml-[15px] z-30 relative ">
+                    <Button
+                      style={{
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        boxShadow:
+                          "0.65px 3.26px 9.14px 0px rgba(0, 0, 0, 0.25)",
+                      }}
+                      variant="outline"
+                      className="bg-transparent  w-[188px] h-[41.44px]  rounded-full border-2 border-white "
+                    >
+                      <p className="text-white font-medium font-poppins text-[20.89px] leading-[31.33px] ">
+                        Get Blessings
+                      </p>
+                    </Button>
+                  </div>
+                </Link>
               </div>
 
               {/* Images */}
 
               {/* clip path  */}
-              <div className=" -mt-[0.2rem] ml-[10]  w-[58.23px] h-[199px] z-20 ">
+              <div className=" -mt-[0.2rem] ml-[10]  w-[58.23px] h-[199px] z-20 flex justify-items-end">
                 <Image
                   src="/Clip path group.png"
                   alt="clip-path"
@@ -96,7 +141,7 @@ const Hero = () => {
                 />
               </div>
               {/* Honey */}
-              <div className=" w-[132.24px]  h-[145.42px] ml-60 -mt-56  ">
+              <div className=" w-[132.24px]  h-[145.42px] ml-[15.1rem] -mt-56  ">
                 <Image
                   src="/honey.png"
                   alt="honey"
@@ -132,6 +177,13 @@ const Hero = () => {
                   alt="deepak2"
                   height={87.63}
                   width={122.45}
+                />
+                <Image
+                  src="/Deepak.gif"
+                  alt="deepak gif"
+                  width={50}
+                  height={50}
+                  className=" absolute -mt-[98px] ml-[46px]"
                 />
               </div>
             </div>

@@ -4,14 +4,17 @@ import React from "react";
 const Gift = () => {
   return (
     <div className=" h-[917px] custom ">
-      <div className="" style={{
-    backgroundImage: `
+      <div
+        className=""
+        style={{
+          backgroundImage: `
       linear-gradient(111.68deg, #F9C159 5.34%, #FFAC6C 35.5%, #FC7D7B 66.36%, #ED6589 96.32%),
       linear-gradient(249.65deg, rgba(255, 162, 0, 0.2) 3.58%, rgba(230, 199, 140, 0.2) 36.38%, rgba(235, 188, 123, 0.2) 62.73%, rgba(237, 142, 170, 0.2) 96.04%)
     `,
-  }}>
+        }}
+      > 
         {/* chakara image */}
-        <div className="  border-black w-[362px] mx-auto h-[355px] -mt-[220px] ">
+        <div className="   w-[362px] mx-auto h-[355px] -mt-[220px] ">
           <Image
             src="/purple-chakra.png"
             alt="pink chakra"
@@ -20,10 +23,9 @@ const Gift = () => {
             className=" animate-spin360 h-[348.39px] w-[355.38px] md:w-[817px] md:h-[800.92px] "
           />
         </div>
-\
-{/* rocket image */}
+        \{/* rocket image */}
         <div
-          className="-mt-[30px] -mb-[70px] transform "
+          className="-mt-[35px] -mb-[100px] transform "
           style={{ transform: "rotate(11.49deg)" }}
         >
           <Image
@@ -35,9 +37,7 @@ const Gift = () => {
           />
         </div>
         {/* text image */}
-        
-
-        <div className=" w-[372px] h-[572px] border-2 border-green-500 rounded-[8px] mx-auto bg-gradient-to-l from-[#481D6C] to-[#870551]  text-white gap">
+        <div className=" w-[372px] h-[572px]  rounded-[8px] mx-auto bg-gradient-to-l from-[#481D6C] to-[#870551]  text-white gap">
           <div className="font-merriweather w-[336px] mx-auto h-[73px]   mt-9 mb-8 ">
             <p className="text-[22px] leading-[41px] font-bold">
               Thank You for Being a Part of This Light!
@@ -102,11 +102,11 @@ const Gift = () => {
             />
           </div>
         </div>
-
         <div className="w-10/12 text-center  mx-auto mt-10 mb-10">
-          <p className="font-[Merge One] font-medium text-xl leading-[41px]">Made with ❤️ by Gaurav</p>
+          <p className="font-[Merge One] font-medium text-xl leading-[41px]">
+            Made with ❤️ by Gaurav
+          </p>
         </div>
-       
       </div>
     </div>
   );
