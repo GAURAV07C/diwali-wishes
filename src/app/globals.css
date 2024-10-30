@@ -1,21 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Modern+Antiqua&family=Poppins:wght@400;700&family=Merriweather+Sans:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+body{
+  height: 100vh;
+  width: 100vw;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.custom {
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+linear-gradient(111.68deg, #F9C159 5.34%, #FFAC6C 35.5%, #FC7D7B 66.36%, #ED6589 96.32%),
+linear-gradient(249.65deg, rgba(255, 162, 0, 0.2) 3.58%, rgba(230, 199, 140, 0.2) 36.38%, rgba(235, 188, 123, 0.2) 62.73%, rgba(237, 142, 170, 0.2) 96.04%);
+
 }
