@@ -124,7 +124,9 @@ const Hero = () => {
                   <Button
                     onClick={burstCracker}
                     variant="outline"
-                    className={`bg-white  w-[227px] h-[43.97px]  rounded-full`}
+                    className={`  w-[227px] h-[43.97px]  rounded-full  ${
+                      isButtonClicked ? "bg-yellow-500 text-black" : "bg-white"
+                    }`}
                   >
                     <p className="text-black font-medium font-poppins text-[21.95px] leading-[32.92px] ">
                       Burst a Cracker!
@@ -141,9 +143,7 @@ const Hero = () => {
                           "0.65px 3.26px 9.14px 0px rgba(0, 0, 0, 0.25)",
                       }}
                       variant="outline"
-                      className={`bg-transparent  w-[188px] h-[41.44px]  rounded-full border-2 border-white ${
-                      isButtonClicked ? "bg-yellow-500 text-black" : "bg-white"
-                    }`}
+                      className="bg-transparent  w-[188px] h-[41.44px]  rounded-full border-2 border-white "
                     >
                       <p className="text-white font-medium font-poppins text-[20.89px] leading-[31.33px] ">
                         Get Blessings
