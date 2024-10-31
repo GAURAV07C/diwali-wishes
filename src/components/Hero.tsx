@@ -28,7 +28,7 @@ const Hero = () => {
       >
         {/* Second gradient layer (bottom to top) */}
         <div className=" inset-0 bg-gradient-to-t from-[rgba(247,182,84,0.2)] to-[rgba(225,38,84,0.2)] opacity-100 ">
-          <div className=" w-[355.38px] mx-auto md:w-full lg:w-full lg:h-[832px] ">
+          <div className=" w-[355.38px] mx-auto lg:w-full lg:w-full lg:h-[832px] ">
             {/* chakara yellow */}
             <div className=" h-[348.39px] -mt-[210px] lg:w-[733.38px] lg:h-[758px] lg:-mt-[10px] lg:-ml-[440px] ">
               <Image
@@ -40,16 +40,16 @@ const Hero = () => {
               />
             </div>
 
-            <div className="md:mt-[102px]">
+            <div className="lg:mt-[102px]">
               {/* happy diwali */}
 
               <div className="   mx-auto flex flex-row   items-center justify-center  lg:-mt-[750px] ">
                 {/* Image */}
-                <div className=" md:w-[619px] md:h-[126px] w-[273px] h-[64px] text-[42px] md:text-[96px] text-white gap-0 font-playfair font-extrabold leading-[55.99px] md:leading-[127.97px]  ">
+                <div className=" lg:w-[619px] lg:h-[126px] w-[273px] h-[64px] text-[42px] lg:text-[96px] text-white gap-0 font-playfair font-extrabold leading-[55.99px] lg:leading-[127.97px]  ">
                   <div>Happy Diwali</div>
                 </div>
                 {/* deepak 1 Image  */}
-                <div className="w-[79.25px] h-[54.55px] md:w-[157.21px] md:[121px]">
+                <div className="w-[79.25px] h-[54.55px] lg:w-[157.21px] lg:[121px]">
                   <Image
                     src="/deepak-1.png"
                     alt="deep1"
@@ -135,7 +135,7 @@ const Hero = () => {
                 </div>
                 {/* get blessing */}
                 
-                  <div className=" md:mt-0 ml-[15px] z-30 relative ">
+                  <div className=" lg:mt-0 ml-[15px] z-30 relative ">
                   <Link href="#blessing">
                     <Button
                       style={{
