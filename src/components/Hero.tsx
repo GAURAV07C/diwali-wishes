@@ -45,7 +45,7 @@ const Hero = () => {
 
               <div className="   mx-auto flex flex-row   items-center justify-center  lg:-mt-[750px] ">
                 {/* Image */}
-                <div className=" lg:w-[619px] lg:h-[126px] w-[273px] h-[64px] text-[42px] lg:text-[96px] text-white gap-0 font-playfair font-extrabold leading-[55.99px] lg:leading-[127.97px]  ">
+                <div className=" lg:w-[619px] lg:h-[126px] w-[273px] h-[64px] text-[42px] lg:text-[96px] text-white gap-0 font-playfair font-extrabold leading-[55.99px] lg:leading-[127.97px]  lg:ml-[100px]">
                   <div>Happy Diwali</div>
                 </div>
                 {/* deepak 1 Image  */}
