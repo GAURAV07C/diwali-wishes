@@ -158,7 +158,7 @@ const Hero = () => {
               {/* Images */}
 
               {/* clip path  */}
-              <div className=" -mt-[0.2rem] ml-[10]  w-[58.23px] h-[199px] lg:h-[364pxpx] lg:w-[106.51px] z-20 flex justify-items-end lg:ml-[1700px] lg:-mt-[500px]">
+              <div className=" -mt-[0.2rem] ml-[10]  w-[58.23px] h-[199px] lg:h-[364pxpx] lg:w-[106.51px] z-20 flex justify-items-end lg:ml-[170px] lg:-mt-[500px]">
                 <Image
                   src="/Clip path group.png"
                   alt="clip-path"
