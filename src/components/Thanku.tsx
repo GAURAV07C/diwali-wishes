@@ -73,7 +73,7 @@ const Gift = () => {
           </div>
         </div>
         {/* image  */}
-        <div className="lg:ml-[600px]">
+        <div className="lg:ml-[550px]">
           <div className="-mt-[42px] ml-28 lg:-ml-[38px] lg:-mt-[100px]">
             <Image
               src="/gift.png"
