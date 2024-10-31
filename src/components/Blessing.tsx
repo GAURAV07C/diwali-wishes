@@ -18,7 +18,7 @@ const Blessing = () => {
           />
         </div>
 
-        <div className="     lg:order-firsts mb-16 lg:w-[864px] lg:h-[722px] lg:-mt-[730px] lg:-ml-[150px]">
+        <div className="     lg:order-firsts mb-16 lg:w-[864px] lg:h-[722px] lg:-mt-[730px] lg:-ml-[120px]">
           <Image
             src="/mandapa.png"
             alt="mandap"
