@@ -91,7 +91,7 @@ const Hero = () => {
                 width={1000}
                 height={1800}
                 className={`absolute -mt-[85px] -ml-[14px] lg:-mt-[620px] lg:ml-[100px] ${
-                  crackerVisible == 3 ? "" : "hidde"
+                  crackerVisible == 3 ? "" : "hidden"
                 } `}
               />
 
