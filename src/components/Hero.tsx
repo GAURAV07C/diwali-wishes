@@ -117,7 +117,7 @@ const Hero = () => {
 
               {/* button */}
 
-              <div className="lg:flex lg:mt-[35px] lg:ml-[540px]">
+              <div className="lg:flex lg:mt-[35px] lg:ml-[340px]">
                 {/* brust cracker button */}
 
                 <div className="ml-[15px]  h-[64px]  ">
