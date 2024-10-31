@@ -90,8 +90,8 @@ const Hero = () => {
                 alt="deepak gif"
                 width={1000}
                 height={1800}
-                className={`absolute -mt-[85px] -ml-[14px] lg:-mt-[620px] lg:ml-[500px] ${
-                  crackerVisible == 3 ? "" : "hidden"
+                className={`absolute -mt-[85px] -ml-[14px] lg:-mt-[620px] lg:ml-[100px] ${
+                  crackerVisible == 3 ? "" : "hidde"
                 } `}
               />
 
