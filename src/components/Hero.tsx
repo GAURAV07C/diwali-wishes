@@ -184,7 +184,7 @@ const Hero = () => {
               </div>
             </div>
 
-            <div className="  w-full mt-9 mb-5 lg:ml-[1400px]">
+            <div className="  w-full mt-9 mb-5 lg:ml-[140px]">
               <div className=" -mt-[25px] ml-[11rem] relative z-10 lg:ml-[] lg:-mt-[150px]">
                 <Image
                   src="/laddu-1.png"
