@@ -8,7 +8,7 @@ const Blessing = () => {
       id="blessing"
     >
       <div className=" lg:w-[1280px] lg:h-[832px]  mx-auto   relative  justify-center items-center  gap-3 lg:gap-0">
-        <div className="    mx-auto  lg:order-last    mt-[-215px]  lg:mt-0 lg:w-[817px] lg:h-[800.92px] lg:ml-[1200px]">
+        <div className="    mx-auto  lg:order-last    mt-[-215px]  lg:mt-0 lg:w-[817px] lg:h-[800.92px] lg:ml-[1000px]">
           <Image
             src="/pink-chakra.png"
             alt="pink chakra"
@@ -18,7 +18,7 @@ const Blessing = () => {
           />
         </div>
 
-        <div className="     lg:order-firsts mb-16 lg:w-[864px] lg:h-[722px] lg:-mt-[730px] lg:-ml-[180px]">
+        <div className="     lg:order-firsts mb-16 lg:w-[864px] lg:h-[722px] lg:-mt-[730px] lg:-ml-[150px]">
           <Image
             src="/mandapa.png"
             alt="mandap"
