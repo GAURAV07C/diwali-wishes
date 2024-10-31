@@ -23,7 +23,7 @@ const Gift = () => {
             className=" animate-spin360 h-[348.39px] w-[355.38px] lg:w-[740px] lg:h-[726.22px]"
           />
         </div>
-        <div className="lg:h-[880px] lg:w-[1200px] lg:bg-[url('/Frame.png')] lg:bg-cover lg:bg-center">
+        <div className="lg:h-[880px] lg:w-[1150px] lg:bg-[url('/Frame.png')] lg:bg-cover lg:bg-center">
 
      
         \{/* rocket image */}
@@ -73,7 +73,7 @@ const Gift = () => {
           </div>
         </div>
         {/* image  */}
-        <div className="lg:ml-[550px]">
+        <div className="lg:ml-[540px]">
           <div className="-mt-[42px] ml-28 lg:-ml-[38px] lg:-mt-[100px]">
             <Image
               src="/gift.png"
