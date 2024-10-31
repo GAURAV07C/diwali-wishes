@@ -69,7 +69,7 @@ const Hero = () => {
                 </div>
               </div>
               {/* wishes */}
-              <div className="h-[191px]  mt-2 font-merriweather font-semibold text-[20px] leading-[32px] text-white relative lg:text-[36px] lg:leading-[45.25px] lg:w-[895px] mx-auto lg:mt-[19px] lg:ml-[560px]">
+              <div className="h-[191px]  mt-2 font-merriweather font-semibold text-[20px] leading-[32px] text-white relative lg:text-[36px] lg:leading-[45.25px] lg:w-[895px] mx-auto lg:mt-[19px] lg:ml-[360px]">
                 Let’s dive into the sweets, light up the crackers, share the
                 laughs and build memories that light up your hearts as much as
                 the night sky. Let’s celebrate!
