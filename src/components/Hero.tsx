@@ -171,7 +171,7 @@ const Hero = () => {
               <div
                 className=" w-[132.24px]  h-[145.42px] lg:w-[163.79px] lg:h-[180.96px]
               ml-[16rem]
-              -mt-56 lg:mt-[250px] lg:ml-[1730px] "
+              -mt-56 lg:mt-[250px] lg:ml-[130px] "
                 style={{ transform: "translateY(-50%)" }}
               >
                 <Image
