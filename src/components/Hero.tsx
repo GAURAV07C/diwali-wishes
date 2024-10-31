@@ -205,7 +205,7 @@ const Hero = () => {
                 />
               </div>
 
-              <div className=" w-[104px]  -mt-[90px] -ml-[10px] relative z-10 lg:-ml-[140px] lg:-mt-[180px]">
+              <div className=" w-[104px]  -mt-[90px] -ml-[10px] relative z-10 lg:-ml-[300px] lg:-mt-[180px]">
                 <Image
                   src="/deepak-2.png"
                   alt="deepak2"
