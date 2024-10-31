@@ -158,7 +158,7 @@ const Hero = () => {
               {/* Images */}
 
               {/* clip path  */}
-              <div className=" -mt-[0.2rem] ml-[10]  w-[58.23px] h-[199px] lg:h-[364pxpx] lg:w-[106.51px] z-20 flex justify-items-end lg:ml-[170px] lg:-mt-[500px]">
+              <div className=" -mt-[0.2rem] ml-[10]  w-[58.23px] h-[199px] lg:h-[364pxpx] lg:w-[106.51px] z-20 flex justify-items-end lg:ml-[1150px] lg:-mt-[550px]">
                 <Image
                   src="/Clip path group.png"
                   alt="clip-path"
@@ -171,7 +171,7 @@ const Hero = () => {
               <div
                 className=" w-[132.24px]  h-[145.42px] lg:w-[163.79px] lg:h-[180.96px]
               ml-[16rem]
-              -mt-56 lg:mt-[250px] lg:ml-[130px] "
+              -mt-56 lg:mt-[250px] lg:ml-[1100px] "
                 style={{ transform: "translateY(-50%)" }}
               >
                 <Image
@@ -185,7 +185,7 @@ const Hero = () => {
             </div>
 
             <div className="  w-full mt-9 mb-5 lg:ml-[140px]">
-              <div className=" -mt-[25px] ml-[11rem] relative z-10 lg:ml-[] lg:-mt-[150px]">
+              <div className=" -mt-[25px] ml-[11rem] relative z-10 lg:ml-[800px] lg:-mt-[100px]">
                 <Image
                   src="/laddu-1.png"
                   alt="ladu1"
@@ -195,7 +195,7 @@ const Hero = () => {
                 />
               </div>
 
-              <div className="z-0 w-[168px] lg:w-[260.5px]  ml-[60px] -mt-[7.3rem] relative lg:-mt-[200px] lg:-ml-[60px]">
+              <div className="z-0 w-[168px] lg:w-[260.5px]  ml-[60px] -mt-[7.3rem] relative lg:-mt-[200px] lg:ml-[570px]">
                 <Image
                   src="/laddu-2.png"
                   alt="ladu2"
@@ -205,7 +205,7 @@ const Hero = () => {
                 />
               </div>
 
-              <div className=" w-[104px]  -mt-[90px] -ml-[10px] relative z-10 lg:-ml-[300px] lg:-mt-[180px]">
+              <div className=" w-[104px]  -mt-[90px] -ml-[10px] lg:w-[170.47px] lg:h-[259px] relative z-10 lg:ml-[430px] lg:-mt-[160px]">
                 <Image
                   src="/deepak-2.png"
                   alt="deepak2"
@@ -218,7 +218,7 @@ const Hero = () => {
                   alt="deepak gif"
                   width={70}
                   height={90}
-                  className="w-[50px] h-[50px] lg:h-[90px] lg:w-[70px]  absolute -mt-[105px] ml-[46px] lg:-mt-[200px] lg:ml-[35px]"
+                  className="w-[50px] h-[50px] lg:h-[90px] lg:w-[70px]  absolute -mt-[105px] ml-[46px] lg:-mt-[200px] lg:ml-[81px]"
                 />
               </div>
             </div>
